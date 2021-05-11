@@ -1,10 +1,10 @@
 package code;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		ArrayList<Employee> empList = new ArrayList<Employee>();
+		List<Employee> empList = new ArrayList<Employee>();
 	Scanner ab = new Scanner(System.in);
 	scan s=new scan();
 	
