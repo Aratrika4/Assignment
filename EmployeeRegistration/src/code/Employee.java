@@ -2,10 +2,10 @@ package code;
 
 public class Employee {
 
-long empId;
-String empName;
-int empAge;
-String empAddress;
+private long empId;
+private String empName;
+private int empAge;
+private String empAddress;
 Employee(long empId, String empName, int empAge, String empAddress){
 	this.empId = empId;
 	this.empName = empName;
