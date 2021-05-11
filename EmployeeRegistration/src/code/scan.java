@@ -1,13 +1,13 @@
 package code;
 
+import java.util.*;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 
 public class scan {
 	Scanner ab = new Scanner(System.in);
 	
-	public void addemp(ArrayList<Employee> empList){
+	public void addemp(List<Employee> empList){
 		System.out.print("Enter empId:-");
 		long empId=10125+(empList.size()-1)+1;
 		ab.nextLine();
@@ -24,7 +24,7 @@ public class scan {
 }
 	
 	
-	public void updateemp(ArrayList<Employee> empList) {
+	public void updateemp(List<Employee> empList) {
 		System.out.print("Enter empId");
 		long empIdUpdate = ab.nextLong();
 		
@@ -67,7 +67,7 @@ public class scan {
 	
 	
 	
-	public void showDetails(ArrayList<Employee> empList) {
+	public void showDetails(List<Employee> empList) {
 		System.out.print("Enter empId");
 		long empIdShow = ab.nextLong();
 		Employee empDetails = null;
@@ -88,7 +88,7 @@ public class scan {
 	
 	
 	
-	public void showAllDetails(ArrayList<Employee> empList) {
+	public void showAllDetails(List<Employee> empList) {
 		System.out.print("empID  empName  empAge  empAddress");
 		for(Employee showall : empList)
 		{
@@ -98,7 +98,7 @@ public class scan {
 	}
 	
 	
-	public void deleteemp(ArrayList<Employee> empList) {
+	public void deleteemp(List<Employee> empList) {
 		System.out.print("Enter empId");
 		long empIdDelete = ab.nextLong();
 		Employee empDetails = null;
